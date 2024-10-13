@@ -9,4 +9,4 @@ To run this project locally, follow these steps:
 
 ```bash
 git clone https://github.com/AlirezaRoostaey/digiKala.git
-run php -S localhost:8000
+run php -S localhost:8000 route.php
