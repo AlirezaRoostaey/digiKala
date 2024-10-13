@@ -1,0 +1,16 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Models\\": "Models/",
+            "Traits\\": "Traits/",
+            "database\\": "database/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
